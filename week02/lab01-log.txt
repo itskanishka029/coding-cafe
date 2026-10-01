@@ -1,0 +1,16 @@
+  596  ls -a
+  597  deactivate
+  598  python3 -m venv .venv
+  599  ls -a
+  600  source .venv/bin/activate
+  601  which python3
+  602  which python3
+  603  pip list
+  604  pip install requests
+  605  pip list
+  606  deactivate
+  607  which python3
+  608  man ls
+  609  python3
+  610  python3
+  611  ls week02
