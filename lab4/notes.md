@@ -12,4 +12,3 @@ gh auth login authenticates my system with GitHub using a secure OAuth token and
 README.md is displayed on the front page of the repository because GitHub automatically looks for this specific filename and renders its Markdown formatted text as the main landing page and overview of the project.
 No, running git push does not alter my local Git history in any way; it simply uploads a copy of my local commits to the remote repository on GitHub.
 A private repository exists on GitHub with access restricted only to specified collaborators (like TAs), whereas a non-existent repository has no code or history uploaded to GitHub at all.
-The --global flag applies the configuration settings across all Git repositories on your user account on this machine. If you left it out, the settings would only apply locally to the current repository you are in, requiring you to configure your name and email again for any other Git repository.
