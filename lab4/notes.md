@@ -6,8 +6,9 @@ After creating .gitignore, the hidden .venv/ directory and any untracked files m
 README.md moved from Untracked files to Changes to be committed. In the three-places model, running git add README.md copied the file from my working directory into the staging area (index), marking it as ready to be included in the next commit.
 After committing, Git printed the branch name (main), the short commit hash (053d51e), the commit message, and created file modes. It reported that 6 files changed with 36 insertions(+).
 The first seven characters of my commit hash (053d51e) are called a short SHA (or short commit hash). They serve as a unique identifier for that specific snapshot in history, allowing me to easily view, reference, or revert back to that exact commit later.
-The four steps of the Git edit-stage-commit loop are:
-1.Modify/Create files in the working directory.
-2.Check status using git status to see what changed.
-3.Stage changes using git add < file > to prepare them for commit.
-4.Commit changes using git commit -m "message" to save a snapshot to history.
+The four steps of the Git edit-stage-commit loop are: 1.Modify/Create files in the working directory. 2.Check status using git status to see what changed. 3.Stage changes using git add < file > to prepare them for commit. 4.Commit changes using git commit -m "message" to save a snapshot to history.
+README.md gets a special name and location because Git hosting platforms like GitHub automatically recognize and render it as the home page of the repository. It serves as the primary landing page and documentation overview for anyone visiting the project.
+gh auth login authenticates my system with GitHub using a secure OAuth token and configures Git credentials. This allows Git to safely push and pull without asking for a password every time.
+README.md is displayed on the front page of the repository because GitHub automatically looks for this specific filename and renders its Markdown formatted text as the main landing page and overview of the project.
+No, running git push does not alter my local Git history in any way; it simply uploads a copy of my local commits to the remote repository on GitHub.
+A private repository exists on GitHub with access restricted only to specified collaborators (like TAs), whereas a non-existent repository has no code or history uploaded to GitHub at all.
