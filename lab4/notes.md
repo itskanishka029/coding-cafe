@@ -1,4 +1,4 @@
-
+The --global flag applies the configuration settings across all Git repositories on your user account on this machine. If you left it out, the settings would only apply locally to the current repository you are in, requiring you to configure your name and email again for any other Git repository.
 The hidden entries .git, .venv, and .DS_Store appeared in ls -a but not in ls. Inside the .git directory are Git's internal metadata files, object database, pointers, and configuration settings that track all repository history and changes.
 Git is offering to track 4 items (the .DS_Store file, README.md, and the week02/ directory containing two files). Yes, .DS_Store is a hidden system file created automatically by macOS, which I did not manually write.
 After creating .gitignore, the hidden .venv/ directory and any untracked files matched by the ignore rules disappeared from my git status output.
